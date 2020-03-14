@@ -18,7 +18,7 @@ by Xiangwen Sun
 * write then output a dictionary with {ingredient1: #num, ingredient2: #num}
 
 
-# Eg. 
+### Example 
 x = mscapython.base.salad()
 path = "/..."
 salad = ["potato","tomato"]
