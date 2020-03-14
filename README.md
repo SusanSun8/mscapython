@@ -26,14 +26,14 @@ num =[2,1]
 
 x.read(path,salad, num)
 
-*Output:
+* Output:
 potato00.salad
 potato01.salad
 tomato00.salad
 
 x.write(path)
 
-*Output:
+* Output:
 {potato: 2;
 tomato:1}
 
