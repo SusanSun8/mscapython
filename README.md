@@ -17,3 +17,6 @@ by Xiangwen Sun
 * write takes in a path, and find all the ".salad" files in that path
 * write then output a dictionary with {ingredient1: #num, ingredient2: #num}
 
+## Salad timing
+
+* The performance for salad is almost zero but dependent on the input salad length. 
