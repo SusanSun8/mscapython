@@ -17,6 +17,26 @@ by Xiangwen Sun
 * write takes in a path, and find all the ".salad" files in that path
 * write then output a dictionary with {ingredient1: #num, ingredient2: #num}
 
+
+# Eg. 
+x = mscapython.base.salad()
+path = "/..."
+salad = ["potato","tomato"]
+num =[2,1]
+
+x.read(path,salad, num)
+
+*Output:
+potato00.salad
+potato01.salad
+tomato00.salad
+
+x.write(path)
+
+*Output:
+{potato: 2;
+tomato:1}
+
 ## Salad timing
 
 * The performance for salad is almost zero but dependent on the input salad length. 
