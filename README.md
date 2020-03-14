@@ -19,6 +19,7 @@ by Xiangwen Sun
 
 
 ### Example 
+
 x = mscapython.base.salad()
 
 path = "/..."
@@ -26,6 +27,8 @@ path = "/..."
 salad = ["potato","tomato"]
 
 num =[2,1]
+
+* read
 
 x.read(path,salad, num)
 
@@ -36,6 +39,8 @@ potato00.salad
 potato01.salad
 
 tomato00.salad
+
+* write
 
 x.write(path)
 
