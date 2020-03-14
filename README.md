@@ -20,8 +20,11 @@ by Xiangwen Sun
 
 ### Example 
 x = mscapython.base.salad()
+
 path = "/..."
+
 salad = ["potato","tomato"]
+
 num =[2,1]
 
 x.read(path,salad, num)
