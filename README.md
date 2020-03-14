@@ -30,8 +30,11 @@ num =[2,1]
 x.read(path,salad, num)
 
 * Output:
+
 potato00.salad
+
 potato01.salad
+
 tomato00.salad
 
 x.write(path)
